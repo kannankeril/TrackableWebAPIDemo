@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrackableWebApi.WebApi", "TrackableWebApi\TrackableWebApi.WebApi\TrackableWebApi.WebApi.csproj", "{125A3444-EB4D-44E5-855A-115D591DB9BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrackableWebApi.Service.Persistence", "TrackableWebApi\TrackableWebApi.Service.Persistence\TrackableWebApi.Service.Persistence.csproj", "{3363BA04-5105-4A00-BB0A-733272611A99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrackableWebApi.Service.EF", "TrackableWebApi\TrackableWebApi.Service.EF\TrackableWebApi.Service.EF.csproj", "{5C3E1AA8-CA59-4257-889C-338716CF8DF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrackableWebApi.ConsoleClient", "TrackableWebApi\TrackableWebApi.ConsoleClient\TrackableWebApi.ConsoleClient.csproj", "{6558B314-B755-4A88-A518-3E97275A696C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrackableWebApi.Entities.Shared.Net45", "TrackableWebApi\TrackableWebApi.Entities.Shared.Net45\TrackableWebApi.Entities.Shared.Net45.csproj", "{98F8C001-E6A2-4692-A2A1-8AE6E1D1EC62}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{285316CB-0248-4FAB-8A07-2D6E531D2D82}"
+	ProjectSection(SolutionItems) = preProject
+		TrackableWebApi.Patterns.ReadMe.txt = TrackableWebApi.Patterns.ReadMe.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{125A3444-EB4D-44E5-855A-115D591DB9BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{125A3444-EB4D-44E5-855A-115D591DB9BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{125A3444-EB4D-44E5-855A-115D591DB9BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{125A3444-EB4D-44E5-855A-115D591DB9BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3363BA04-5105-4A00-BB0A-733272611A99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3363BA04-5105-4A00-BB0A-733272611A99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3363BA04-5105-4A00-BB0A-733272611A99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3363BA04-5105-4A00-BB0A-733272611A99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C3E1AA8-CA59-4257-889C-338716CF8DF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C3E1AA8-CA59-4257-889C-338716CF8DF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C3E1AA8-CA59-4257-889C-338716CF8DF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C3E1AA8-CA59-4257-889C-338716CF8DF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6558B314-B755-4A88-A518-3E97275A696C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6558B314-B755-4A88-A518-3E97275A696C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6558B314-B755-4A88-A518-3E97275A696C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6558B314-B755-4A88-A518-3E97275A696C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98F8C001-E6A2-4692-A2A1-8AE6E1D1EC62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98F8C001-E6A2-4692-A2A1-8AE6E1D1EC62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98F8C001-E6A2-4692-A2A1-8AE6E1D1EC62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98F8C001-E6A2-4692-A2A1-8AE6E1D1EC62}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
